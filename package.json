@@ -1,0 +1,15 @@
+{
+  "name": "promise",
+  "version": "0.0.1",
+  "description": "a simple implementation of promise/A+",
+  "main": "index.js",
+  "author": "EnixCoda",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  }
+}

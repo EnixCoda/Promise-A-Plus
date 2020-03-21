@@ -2,14 +2,17 @@
   "name": "promise",
   "version": "0.0.1",
   "description": "a simple implementation of promise/A+",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "EnixCoda",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "node test.js"
+    "test:common": "node tests/common.js",
+    "test:type": "tsc --noEmit tests/type.ts"
   },
   "devDependencies": {
-    "promises-aplus-tests": "^2.1.2"
+    "@types/node": "^13.9.2",
+    "promises-aplus-tests": "^2.1.2",
+    "typescript": "^3.7"
   }
 }
